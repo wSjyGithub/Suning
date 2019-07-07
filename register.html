@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册界面</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+		<!-- 引入js，在此引入jquery包 -->
+		<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">		
+		
+	</head>
+	
+	<body>
+		<!--标题欢迎注册-->
+		<div class="header">
+			<a href="login.html" class="login">我已注册，马上登录></a>
+			<a href="index.html" class="logo">
+				<img src="images/snlogo.png" alt="苏宁易购" />
+			</a>
+			<div class="logo-text">欢迎注册</div>
+		</div>
+		<!--注册界面-->
+		<div class="main">
+			<form action="" class="myform">
+				<div class="reg-form">
+					<div class="gift">
+						<i></i>
+						注册领
+						<span>199</span>
+						元大礼包
+					</div>
+					
+					<div class="phonenum">
+						<div class="input-box">
+							 <label  class="title" >手机号</label>
+							 <div class="input-wrapper">
+							 	<input type="text" class="phonum" maxlength="11" placeholder="请输入手机号"/>
+							 	<!--<label class="placehold" style="display: none;">请输入手机号</label>-->
+							 </div>
+						</div>
+					</div>
+					
+					<div class="phonenum phonetest">
+						<div class="input-box">
+							 <label  class="title" >验证码</label>
+							 <div class="input-wrapper">
+							 	<input type="text" class="yanzheng" maxlength="11" placeholder="请输入手机验证码"/>
+							 	<a href="#" class="send-msg">获取手机验证码</a>
+							 </div>
+						</div>
+					</div>
+					
+					<div class="phonenum phopassword">
+						<div class="input-box">
+							 <label  class="title" >设置密码</label>
+							 <div class="input-wrapper">
+							 	<input type="text" class="phonum" maxlength="11" placeholder="请输入密码"/>
+							 	
+							 </div>
+						</div>
+					</div>
+						
+					<a href="#" class="submit-btn">提交注册</a>
+					<a href="#" class="enter-reg">
+						<i></i>
+						企业用户注册
+					</a>
+				</div>
+			</form>
+		</div>
+		
+		<div id="ng-s-f-con">
+			<script>
+				$("#ng-s-f-con").load("Base/ng-s-f-con.html")
+			</script>
+		</div>
+		
+	
+	</body>
+</html>

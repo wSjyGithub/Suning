@@ -1,0 +1,85 @@
+
+/* 设置全局 */
+	*{margin: 0;padding:0 ;}/*去掉浏览器默认间距*/
+	ul,li{list-style: none;}/*去掉列表默认样式，也就是点*/
+	body{font-size:14px;font-family: arial;background: #f5f5f5 ;}/*设置全局字体*/
+	a{color: #666; text-decoration: none;}/*设置全局超链接样式*/
+	a:hover{ color:#333;} /**/
+	
+/*顶部菜单*/
+.top-nav{height: 36px;width: 100%;background: #f5f5f5;line-height: 34px;}
+.top-nav .inner{width: 1190px;margin: 0 auto;}
+.top-nav .inner .left{float: left;}
+.top-nav .inner .left li{float: left;padding-left: 20px;}
+.top-nav .inner .right{float: right;}
+.top-nav .inner .right li{float: left;padding-left: 20px;}	
+
+/*头部1*/
+.header1{width:100%;height: 110px;}
+.header1 .tupian{width: 1190px;height:108px;margin: 0 auto;}
+.header1 .tupian .header1_1{float: left;}
+.header1 .tupian .header1_2 .channel-logo{float:left;display: inline;font-size: 26px;color: #222;margin: 42px 0 0 20px;text-align: left;}
+
+/*头部2*/
+.header2{width:100%;height: 120px;background: url(../images/search-bg.png) no-repeat;background-size: 100%}
+.header2 .search-box{position: relative;width: 803px;height: 78px;margin: 0 auto;}
+.header2 .search-box .search-btn{outline:none;float:right;margin-top: 30px;width: 100px;height: 53px;line-height: 50px;font-size: 18px;font-weight: bold;letter-spacing: 2px;text-indent: 2px;color: #FFF;border: 0;cursor: pointer;background: #FA0;text-align: center;}
+.header2 .search-box .search{position:absolute;width:690px;height: 49px;padding:0 0 0 11px;border:2px solid #FA0; background: #fff;font-size: 16px;color:#333;margin-top: 30px;}
+.header2 .search-box .search .searchtext{font-size:16px;position: relative;width: 635px;padding: 13px 10px 13px 0;height: 20px;line-height: 20px;border: none;outline:none}
+.header2 .search-box .search .word-list{position: absolute;height:33px;right:0;top:7px;}
+.header2 .search-box .search .word-list .search-word{display: inline-block;padding: 6px 7px;font-size: 14px;background: #F5F5F5;color: #666;border-radius: 2px;margin-right: 10px;cursor: pointer;}
+
+/*主体内容 左边栏*/
+.main{min-height: 585px;height:auto;background:#f5f5f5;}
+.main .main-box {overflow: hidden;margin: 0 auto;min-height:538px;height:auto;clear:both;width: 1190px;padding-top: 15px;padding-bottom: 30px;background: #f5f5f5;}
+.main .main-box .left-menu{width:190px;min-height:540px;background: white;float: left;overflow: hidden;}
+.main .main-box .left-menu .menu-title{padding: 0 13px;height: 50px;line-height: 50px;background: #fa0;text-align: left;color: #fff;font-size: 16px;font-weight: normal;}
+.main .main-box .left-menu .menu-title .icon{display: inline-block;width: 20px;height: 22px;margin-right: 5px;vertical-align: -6px;background: url(images/spriteA.svg) no-repeat;background-position: -489px -409px;}
+.main .main-box .left-menu ul .menu-list{margin: 10px 20px 10px 30px;} 
+.main .main-box .left-menu ul .menu-list .title-box{width: 160px;height: 30px;}
+.main .main-box .left-menu ul .menu-list .title-box .title{font-family: "arial narrow";color: #222;font-weight: normal;float: left;}
+.main .main-box .left-menu ul .menu-list .title-box .title{width:75px;height:30px;color:#222;font-weight: normal;float: left;}
+.main .main-box .left-menu ul .menu-list .title-box .jaintou i{padding-top: 5px;float: right;display: inline-block;width: 25px;height: 20px;}
+.main .main-box .left-menu ul .menu-list .title-box .title .icon{}
+.main .main-box .left-menu ul .menu-list .child{width:130px;height:96px;padding-left: 10px;}
+.main .main-box .left-menu ul .menu-list .child a{display: block;line-height: 32px;color: #666;}
+
+/*主体内容 右边栏*/
+.right-menu{width:990px;height:365px;float: right;font-size: 14px;color: #666;}
+.right-menu .header{width:960px;height:50px;padding-left: 30px;height: 50px;line-height: 50px;margin-bottom: 5px;background: #fff;}
+.right-menu .body{width:890px;height:230px;padding: 40px 50px;background: #fff;}
+.right-menu .body .keywords-list{width:890px;height:36px;padding-bottom: 20px;position: relative;border-bottom: 1px solid #dcdcdc;}
+.right-menu .body .keywords-list ul li:hover{color:#fa0;}
+.right-menu .body .keywords-list .list-detail_1{float:left;display: inline-block;border-right: 1px solid #dcdcdc;line-height: 16px;cursor: pointer;height:16px;margin-bottom: 20px;padding-right: 15px;margin-right: 15px;}
+.right-menu .body .keywords-list .list-detail_2{float:left;display: inline-block;color: #fa0;line-height: 16px;cursor: pointer;height:16px;margin-bottom: 20px;padding-right: 15px;margin-right: 25px;}
+.right-menu .body .title-list{width:890px;height:148px;clear: both;margin-top: 25px;}
+.right-menu .body .title-list ul{width:890px;height:88px;margin-bottom: 10px;}
+.right-menu .body .title-list ul .list-obj a:hover{color: #fa0}
+.right-menu .body .title-list ul li{width:890px;line-height: 44px;cursor: pointer;}
+.right-menu .body .title-list .loadpage{width:890px;height:50px;}
+.right-menu .body .title-list .loadpage .bottom-bar{padding-top:5px;height:45px;float: right;}
+.right-menu .body .title-list .loadpage .bottom-bar .a1{margin-top:14px ;display: inline-block;width: 12px;height: 12px;}
+.right-menu .body .title-list .loadpage .bottom-bar .a3{text-align: center;margin-top:8px ;display: inline-block;width:20px;height:20px;background-color: #fa0;color: #fff;border: 1px solid #fa0;}
+.right-menu .body .title-list .loadpage .bottom-bar span input{outline:none;display: inline-block;border-radius: 1px;width: 38px;height: 26px;margin: 0 5px;padding: 0 5px;border: 1px solid #ddd;text-align: center;}
+.right-menu .body .title-list .loadpage .bottom-bar .go-page{display: inline-block;min-width: 26px;height: 26px;margin-left: 5px;text-align: center;line-height: 25px;border: 1px solid #ddd;background: #fff;border-radius: 1px;}
+/*.clear{clear: both;}*/
+
+/*底部 */    
+.foot{height: 279px;margin: 0 auto;background: #f5f5f5 ;width: 1175px;}
+.foot .ng-promise{padding: 12px 0px;height: 73px;border-bottom: 1px solid #eaeaea;}
+.foot .ng-promise dl{float: left;overflow: hidden;display: block;width: 235px;}
+.foot .ng-promise dl img{width: 48px;height: 48px;}
+.foot .ng-promise dl dt{float: left;overflow: hidden;}
+.foot .ng-promise dl dd{float: left;overflow: hidden;line-height: 24px;color: #545454;}
+.foot .ng-promise dl dd p strong{font-weight: 700;color: #222;font-size: 14px;}
+.foot .ng-help-box{width: 1050px;float: left;height: 180px;}
+.foot .ng-help-box dl{width: 210px;float: left;height: 160px;display: block;padding: 8px 0px;}
+.foot .ng-help-box dt{width: 100%;line-height: 40px;font-weight: 700;color: #545454;height: 35px;font-size: 14px;overflow: hidden;}
+.foot .ng-help-box dd{width: 100%;line-height: 22px;}
+.foot .ng-app-down{float: left;height: 180px;width: 90px;overflow: hidden;}
+.foot .ng-app-down p{width: 100%;line-height: 40px;font-weight: 700;color: #545454;height: 35px;font-size: 14px;margin-bottom: 5px;overflow: hidden;}
+
+.ng-s-f-con{width: 100%;height: 185px;background: #FFF;padding-top: 15px;text-align: center;margin: 0 auto;    line-height: 25px;}
+.ng-s-f-con a{display: inline-block;margin-right: 8px;}
+.ng-s-f-con .ng-copyright{line-height: 25px;height: 25px;color: #999;margin-top: 0;}
+.ng-s-f-con .ng-authentication a{display: inline-block;margin-right: 8px;}

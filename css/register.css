@@ -1,0 +1,47 @@
+
+/* 设置全局 */
+	*{margin: 0;padding:0 ;}/*去掉浏览器默认间距*/
+	ul,li{list-style: none;}/*去掉列表默认样式，也就是点*/
+	body{font-size:14px;font-family: arial;}/*设置全局字体*/
+	a{color: #666; text-decoration: none;}/*设置全局超链接样式*/
+	a:hover{ color:#333;} /**/
+
+/*标题欢迎注册*/
+.header{width:990px;height:88px;margin: 0 auto;}
+.header .login{float: right;margin-top: 63px;}
+.header .logo{float: left;width: 190px;height: 100%;margin-right: 24px;}
+.header .logo-text{float: left;font-size: 18px;color: #666;line-height: 88px;}
+
+/*注册界面*/
+.main{width: 990px;height: 332px;margin: 0 auto;border: 1px solid #ddd;border-top: 3px solid #f90;
+background: #fff;padding: 55px 0;line-height: 1.5;}
+.main .myform{width:990px;height: 327px;background: white;}
+.main .myform .reg-form{width: 380px;height:327px;margin: 0 auto;background:white;}
+.main .myform .reg-form .gift{width:378px;height:17px;line-height: 17px;padding-left: 2px;margin-bottom: 17px;}
+.main .myform .reg-form .gift i{float: left;width: 19px;height: 17px;margin-right: 6px;
+background: url(../images/register.png)  -75px -93px no-repeat;}
+.main .myform .reg-form .gift span{color:#f40;}
+.main .myform .reg-form .phonenum{width:380px;height:40px;margin-bottom: 25px;}
+.main .myform .reg-form .phonetest{margin-bottom: 34px;}
+.main .myform .reg-form .phopassword{margin-bottom: 50px;}
+.main .myform .reg-form .phonenum .input-box{width: 378px;height: 38px;border: 1px solid #ccc;
+line-height: 38px;}
+.main .myform .reg-form .phonenum .input-box .title{float: left;width: 76px;padding-left: 11px;}
+.main .myform .reg-form .phonenum .input-box .input-wrapper{position: relative;width: 291px;height: 38px;float: left;}
+.main .myform .reg-form .phonenum .input-box .input-wrapper .phonum{outline: none;display: inline-block;
+width: 291px;height: 38px;font-size: 14px;color: #333;border: 0;background: 0;}
+.main .myform .reg-form .phonenum .input-box .input-wrapper .yanzheng{float: left;outline: none;display: inline-block;
+width: 142px;height: 38px;font-size: 14px;color: #333;border: 0;background: 0;}
+.main .myform .reg-form .phonenum .input-box .send-msg{float: left;width: 148px;height: 100%;line-height: 38px;
+text-align: center;background: #f5f5f5;border: 1px solid #bbb;margin: -1px -1px 0 0;}
+.main .myform .reg-form .submit-btn {display: inline-block;width: 100%;line-height: 40px;background: #f60;
+font-size: 20px;color: #fff;margin: 24px 0 5px;text-align: center;}
+.main .myform .reg-form .enter-reg {color: #f60;font-size: 14px;float: left;height: 21px;}
+.main .myform .reg-form .enter-reg i {float: left;width: 17px;height: 15px;
+background: url(../images/register.png) -141px -93px no-repeat;margin: 3px 5px 0 0;}
+
+/*底部*/
+.ng-s-f-con{width: 100%;height: 185px;background: #FFF;padding-top: 15px;text-align: center;margin: 0 auto;    line-height: 25px;}
+.ng-s-f-con a{display: inline-block;margin-right: 8px;}
+.ng-s-f-con .ng-copyright{line-height: 25px;height: 25px;color: #999;margin-top: 0;}
+.ng-s-f-con .ng-authentication a{display: inline-block;margin-right: 8px;}
